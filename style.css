@@ -1,3 +1,29 @@
-.body {
+html,
+body {
+    padding: 0px;
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+.logo {
+    margin: 0;
+    font-size: 24px;
+    color: #F9FAF8;
 }
